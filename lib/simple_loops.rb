@@ -18,3 +18,11 @@ def output_array(array)
     counter += 1
   end
 end
+
+def return_string_array(array)
+  counter = 0
+  while array[counter] do
+    array[counter] = counter.to_s
+  end
+  array
+end
